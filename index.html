@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LIEN CSS -->
+    <link rel="stylesheet" href="./public/css/app.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="titre">
+        <h1> MA CALCULTRICE </h1>
+    </div>
+<!-- CALCULTRICE -->
+    <section>
+        <div id="bigContainer" class="container">
+            <!-- ECRAN AFFICHAGE -->
+            <div id="divEcran"><p>0</p></div>
+            <!--  RANGÉE 1 -->
+            <div class="row">
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="9" type="submit">9</button></div>
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="8" type="submit">8</button></div>
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="7" type="submit">7</button></div>
+                <div class="hello col-3"><button class="opBtn btn btn-warning" value="add" type="submit">+</button></div>
+            </div>
+            <!-- RANGÉE 2 -->
+            <div class="row">
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="6" type="submit">6</button></div>
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="5" type="submit">5</button></div>
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="4" type="submit">4</button></div>
+                <div class="hello col-3"><button class="opBtn btn btn-warning" value="subtract" type="submit">-</button></div>
+            </div>
+            <!-- RANGÉE 3 -->
+            <div class="row">
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="3" type="submit">3</button></div>
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="2" type="submit">2</button></div>
+                <div class="hello col-3"><button class="nombreBtn btn btn-primary" value="1" type="submit">1</button></div>
+                <div class="hello col-3"><button class="opBtn btn btn-warning" value="multiply" type="submit">*</button></div>
+            </div>
+            <!-- RANGÉE 4 -->
+            <div class="row">
+                <div class="hello col-3"><button id="clear" value="clear" class="nombreBtn btn btn-primary" data-action="clear" type="submit">C</button></div>
+                <div class="hello col-3"><button id="zero" class="nombreBtn btn btn-primary" value="0" type="submit">0</button></div>
+                <div class="hello col-3"><button id="point" class="nombreBtn btn btn-primary" type="submit">.</button></div>
+                <div class="hello col-3"><button id="divise" class="opBtn btn btn-warning" value="divide" type="submit">/</button></div>
+            </div>
+            <!-- RANGÉE BOUTON EGAL -->
+            <div id="rowEgal" class="row">
+                <button id="egal" class="col-12 btn btn-light" value="calculate" type="submit">=</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- JS -->
+    <script type="module" src="./public/js/main.js"></script>
+    <!-- JQUERY -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!--  BOOTSTRAP -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
