@@ -4,7 +4,7 @@ import{calculer} from './calcul.js'
 let lesChiffres = document.querySelectorAll('.nombreBtn')
 console.log(lesChiffres);
 
-// LES OPÉRATIONS
+// CALCUL
 let operations = document.querySelectorAll('.opBtn')
 console.log(operations);
 
@@ -12,11 +12,10 @@ let egal = document.querySelectorAll('#egal')
 console.log(clear);
 
 // ECRAN
-let ecran = document.querySelector('#divEcran>p')
+let ecran = document.querySelector('#Ecran>p')
 console.log(ecran)
-let ecranEnsemble = document.querySelector('#bigContainer')
+let ecranEnsemble = document.querySelector('#Container')
 console.log(ecranEnsemble);
-
 
 ecranEnsemble.addEventListener('click', (e) =>{
     let laTarget = e.target

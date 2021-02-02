@@ -10837,7 +10837,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-#bigContainer {
+#Container {
   background-color: #0b173d;
   border-radius: 10px;
   width: 30%;
@@ -10845,7 +10845,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 40px;
 }
 
-#bigContainer #divEcran {
+#Container #Ecran {
   background-color: white;
   border-radius: 5px;
   border: 2px black solid;
@@ -10860,7 +10860,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 30px;
 }
 
-#bigContainer #divEcran p {
+#Container #Ecran p {
   margin: 0px 10px;
 }
 
